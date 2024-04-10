@@ -3,7 +3,7 @@
 // @namespace    -
 // @version      -
 // @description  Script for changing your status as lyrics of currently playing song!
-// @author       Wolfy
+// @author       ThatDevWolfy
 // @match        *://open.spotify.com/*
 // @grant        none
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
@@ -99,7 +99,7 @@ $(`
                     <input id="opacity-range-slider" class="range-slider1" type="range" min="50" max="100" value="90">
                 </div>
             </div>
-            <div id="version">Version 2.1.2</div>
+            <div id="version">Version 2.1.2 - By ThatDevWolfy</div>
         </div>
         <div id="debug-tab" class="tab-content hid">
             <div class="option">
