@@ -1,4 +1,4 @@
-Sure! Here's a README file to guide users on how to install your userscript on Tampermonkey:
+
 
 ---
 
